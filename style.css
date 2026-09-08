@@ -145,14 +145,24 @@ a {
    CARD GENERAL
 ========================================================= */
 
-    img.Flag {
-        display: flex;
-        width: 20px;
-        height: 20px;
-        justify-content: center;
-        align-items: center;
-        margin-right: 5px;
-    }
+    img.logo {
+        display: block;
+
+        width: 100px;
+        max-width: 100%;
+
+        height: auto;
+
+        margin: 20px auto;
+
+        border-radius: 15px;
+
+        object-fit: cover;
+
+        box-shadow:
+            0 8px 25px
+            rgba(0, 0, 0, 0.35);}
+    
 
 .card {
     width: 100%;
