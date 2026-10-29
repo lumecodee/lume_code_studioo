@@ -204,6 +204,16 @@ a {
 
     margin: 12px 0;
 }
+.cardd  {
+    display: block;
+
+    width: 100%;
+
+    text-decoration: none;
+
+    margin: 12px 0;
+    background-color: cadetblue;
+}
 
 
 .Pss {
